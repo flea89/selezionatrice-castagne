@@ -20,7 +20,13 @@
 
 .hero-illustration {
 	position: relative;
-    margin-top: 48px;
+	margin-top: 48px;
+	background-image: url("/dist/images/cc-light.png");
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+	min-width: 50%;
+    flex: 1;
 }
 
 .hero-shape {
